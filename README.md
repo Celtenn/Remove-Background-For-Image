@@ -11,7 +11,7 @@ pip install rembg pillow
 
 ### 1. Arka Planı Kaldır
 ```bash
-python background_remover.py
+python main.py
 ```
 
 - `foto.jpg` dosyanızı script ile aynı klasöre koyun
@@ -19,7 +19,7 @@ python background_remover.py
 
 ### 2. Favicon Oluştur
 ```bash
-python create_favicon.py
+python kirp.py
 ```
 
 - `foto_no_bg.png` dosyasını kare olarak kırpar
@@ -28,8 +28,8 @@ python create_favicon.py
 ## Dosya Yapısı
 ```
 ├── foto.jpg              # Giriş (sizin resminiz)
-├── background_remover.py # 1. Adım
-├── create_favicon.py     # 2. Adım
+├── main.py # 1. Adım
+├── kirp.py     # 2. Adım
 ├── foto_no_bg.png        # Ara çıktı
 └── favicon.png           # Final çıktı
 ```
